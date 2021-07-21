@@ -14,12 +14,14 @@ import java.util.Map;
 @Service
 public class PaymentService {
 
+	/** REST TEMPLANTE */
 //	@Autowired
 //	private RestTemplate restTemplate;
 //
 //	@Value("${hr-worker.host}")
 //	private String workerHost;
 
+	/** FEIGN CLIENT*/
 	@Autowired
 	private WorkerFeignClient workerFeignClient;
 
